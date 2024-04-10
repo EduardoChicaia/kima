@@ -49,6 +49,7 @@ img {
     font-size: 1.5em;
     margin-left: 0;
     cursor: pointer;
+    font-weight: bolder;
 }
 .conteiner2 {
     display: flex;
@@ -84,6 +85,7 @@ button {
     right: 53%;
     transform: translateY(13px);
     align-self: center;
+    font-weight: bolder;
 }
 button:hover {
     background: #8a0303a8;
