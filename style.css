@@ -50,20 +50,41 @@ img {
     margin-left: 0;
     cursor: pointer;
 }
+.conteiner2 {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+    transform: translateY(-140px);
+    
+
+}
 p {
     color: #D30000;
     cursor: pointer;
 }
-div {
-    position: relative;
-}
-div i{
-    display: flex;
-   
-   
-}
 button {
     width: 300px;
-    height: 30px;
+    height: 35px;
     border-radius: 20px;
+    background: #D30000;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.conteiner2 i {
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    color: white;
+    right: 53%;
+    transform: translateY(13px);
+    align-self: center;
+}
+button:hover {
+    background: #8a0303a8;
 }
